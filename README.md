@@ -15,7 +15,7 @@ Hands-on security engineering repository focused on deploying Wazuh SIEM, regist
 
 ## 📂 Repository Contents
 * **`images/`**: Contains core verification screenshots documenting the deployment and rule triggering process.
-* **`Wazuh_Rule_Engineering_Steps.pdf`**: Comprehensive documentation detailing step-by-step implementation, configuration files, and testing methodologies for student learning and reference.
+* **[`Wazuh_Rule_Engineering_Steps.pdf`](Wazuh_Rule_Engineering_Steps.pdf)**: Comprehensive documentation detailing step-by-step implementation, configuration files, and testing methodologies for student learning and reference.
 
 ---
 
@@ -24,21 +24,25 @@ Hands-on security engineering repository focused on deploying Wazuh SIEM, regist
 ### Step 1: Wazuh Manager Installation (Ubuntu)
 * Deployed the central Wazuh Manager using the forced installation script and saved the admin credentials.
 * Identified the Manager's IP address (`192.168.5.131`) to prepare for agent enrollment.
+
 ![](images/wazuh_manager_install.png)
 
 ### Step 2: Wazuh Agent Deployment & Connection (Kali Linux)
 * Downloaded and installed the Wazuh agent package on the Kali Linux target machine, pointing it to the Manager's IP.
 * Verified the active status of the agent service and confirmed successful enrollment on the Wazuh Dashboard.
+
 ![](images/wazuh_agent_connection.png)
 
 ### Step 3: Custom Rule Engineering (Manager)
 * Configured the Kali agent to forward Auditd logs via `ossec.conf`.
 * Created custom XML detection rules in `local_rules.xml` (Rule IDs **100001** for `whoami` and **100002** for `apt install`) with a **Level 10** severity rating.
+
 ![](images/wazuh_custom_rules.png)
 
 ### Step 4: Alert Validation & Monitoring
 * Executed target commands on the Kali agent (`whoami` and `apt update && apt install`) to test the detection pipeline.
 * Verified real-time Level 10 security alerts on the Wazuh dashboard interface.
+
 ![](images/wazuh_security_alerts.png)
 
 ---
