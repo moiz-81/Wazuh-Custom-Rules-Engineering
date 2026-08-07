@@ -55,11 +55,12 @@ Hands-on security engineering repository focused on deploying Wazuh SIEM, regist
 * **SIEM Integration:** Successfully established an end-to-end telemetry and monitoring pipeline from the endpoint agent to the central manager.
 * **Threat Detection:** Demonstrated effective custom rule engineering by catching unauthorized package installations and reconnaissance commands in real-time.
 
-##⚠️ Disclaimer
+**⚠️ Disclaimer**
 
 This project was performed in an isolated virtual lab environment for educational and cybersecurity learning purposes.
 All testing was conducted on systems under my control.
 
-##👤 Author
-###Moiz
+**👤 Author**
+
+***Moiz***
 Cybersecurity Student | Aspiring SOC Analyst
