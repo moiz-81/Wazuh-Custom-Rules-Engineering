@@ -47,6 +47,10 @@ Hands-on security engineering repository focused on deploying Wazuh SIEM, regist
 
 ---
 
+## 💡 Lessons Learned
+* Implementing a SIEM solution provides crucial real-time visibility into endpoint security events and unauthorized modifications.
+* Configuring custom detection rules and monitoring logs effectively bridges the gap between raw data collection and actionable threat intelligence.
+
 ## 📊 Summary & Conclusion
 * **SIEM Integration:** Successfully established an end-to-end telemetry and monitoring pipeline from the endpoint agent to the central manager.
 * **Threat Detection:** Demonstrated effective custom rule engineering by catching unauthorized package installations and reconnaissance commands in real-time.
