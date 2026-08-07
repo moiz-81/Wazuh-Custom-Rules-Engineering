@@ -1,6 +1,6 @@
 # Wazuh SIEM Deployment & Custom Rule Engineering
 
-Hands-on security engineering repository focused on deploying Wazuh SIEM, registering endpoint agents, and engineering custom detection rules to catch specific threat behaviors.
+Hands-on Wazuh SIEM lab covering manager deployment, endpoint agent enrollment, log monitoring, and custom detection rule engineering.
 
 ---
 
