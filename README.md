@@ -15,7 +15,7 @@ Hands-on security engineering repository focused on deploying Wazuh SIEM, regist
 
 ## 📂 Repository Contents
 * **`images/`**: Contains core verification screenshots documenting the deployment and rule triggering process.
-* **[`Wazuh_Rule_Engineering_Steps.pdf`](Wazuh_Rule_Engineering_Steps.pdf)**: Comprehensive documentation detailing step-by-step implementation, configuration files, and testing methodologies for student learning and reference.
+* **[`Wazuh_Rule_Engineering_Steps.pdf`](Wazuh_Rule_Engineering_Steps.pdf)**: Comprehensive documentation detailing step-by-step implementation, configuration files, and testing methodologies for learning and reference.
 
 ---
 
