@@ -19,7 +19,7 @@ Hands-on security engineering repository focused on deploying Wazuh SIEM, regist
 
 ---
 
-## 🚀 Step-by-Step Implementation Guide
+## 🚀 Lab Execution & Steps
 
 ### Step 1: Wazuh Manager Installation (Ubuntu)
 * Deployed the central Wazuh Manager using the forced installation script and saved the admin credentials.
